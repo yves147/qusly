@@ -1,6 +1,6 @@
 /* eslint-disable */
 const { resolve } = require('path');
-const merge = require('webpack-merge');
+const merge = require('webpack-merge').merge;
 const HardSourceWebpackPlugin = require('hard-source-webpack-plugin');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 const createStyledComponentsTransformer = require('typescript-plugin-styled-components').default;
